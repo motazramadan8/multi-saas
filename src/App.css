@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+
+}
+
+/* Sweep To Right */
+.close {
+  padding: 7px 14px;
+  background: #EB6149;
+  display: inline-block;
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  transition: color 0.3s;
+  color: white;
+  border: 1px solid #EB6149;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.close:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: rgb(48, 48, 48);
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition: transform 0.3s ease-out;
+  border: 3px solid rgb(48, 48, 48);
+  border-radius: 10px;
+  text-decoration: none;
+}
+.close:hover {
+  color: white;
+}
+.close:hover:before {
+  transform: scaleX(1);
+}
+
+.navi{
+  color: black;
+  text-decoration: none;
+  padding: 0 15px;
+  transition: 0.2s all ease;
+}
+.navi:hover{
+  color: #EB6149;
+  text-decoration: none;
+  padding: 0 15px;
+  transform: scale(1.1);
+}

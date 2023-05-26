@@ -1,0 +1,64 @@
+{
+    "projects": [
+        {
+          "id": "1",
+          "title": "project1",
+          "description": "lorem ipsum",
+          "photo": "/images/6233919229ea6779ed90baf2_VanguardDesignCo-ShilohCreative.jpg"
+        },
+        {
+            "id": "2",
+            "title": "project2",
+            "description": "lorem ipsum",
+            "photo": "/images/62bdee66d787c4a6f4d9ced7_4WhistlesWinery-ShilohCreative-p-1080.jpeg"
+        },
+        {
+            "id": "3",
+            "title": "project3",
+            "description": "lorem ipsum",
+            "photo": "/images/6233990417440f78c3061103_LandingPage-ShilohCreative (1).jpg"
+        },
+        {
+            "id": "4",
+            "title": "project4",
+            "description": "lorem ipsum",
+            "photo": "/images/629a744633cf80efdf426182_NewSongChurch-ShilohCreative-p-1080.jpeg"
+        },
+        {
+            "id": "5",
+            "title": "project5",
+            "description": "lorem ipsum",
+            "photo": "/images/623391a13c260eca5a41c7cc_BelloBeauty-ShilohCreative.jpg"
+        },
+        {
+            "id": "6",
+            "title": "project6",
+            "description": "lorem ipsum",
+            "photo": "/images/623391b6028cc04e169667de_CodeSee-ShilohCreative.jpg"
+        },
+        {
+            "id": "7",
+            "title": "project7",
+            "description": "lorem ipsum",
+            "photo": "/images/623391de29ea67625d90bc28_CodeSeeLearn-ShilohCreative.jpg"
+        },
+        {
+            "id": "8",
+            "title": "project8",
+            "description": "lorem ipsum",
+            "photo": "/images/6233964d458d840baa74c42f_LandingPage-ShilohCreative.jpg"
+        },
+        {
+            "id": "9",
+            "title": "project8",
+            "description": "lorem ipsum",
+            "photo": "/images/6233919229ea6779ed90baf2_VanguardDesignCo-ShilohCreative.jpg"
+        },
+        {
+            "id": "10",
+            "title": "project8",
+            "description": "lorem ipsum",
+            "photo": "/images/6233990417440f78c3061103_LandingPage-ShilohCreative (1).jpg"
+        }
+      ]
+}

@@ -1,0 +1,62 @@
+.dddddivvvvvv{
+    animation: mymovvvve 4s infinite;
+    position: relative;
+}
+
+@keyframes mymovvvve {
+    from {top: 0px;}
+    to {top: 100px;}
+  }
+
+.body_about{
+    overflow-x: hidden;
+}
+
+
+  .hh1hh{
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.ppp2p{
+    color: gray;
+}
+.mgiimg{
+    width: 500px;
+    margin: 0 auto;
+}
+.vidddddiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 950px) {
+    .hh1hh{
+        font-size: 30px;
+        text-align: center;
+    }
+    .mmg{
+        display: none;
+      }
+    
+      
+      @keyframes example {
+        0%   {left:0px; top:0px;}
+        25%  {left:0px; top:0px;}
+        50%  {left:0px; top:20px;}
+        75%  {left:0px; top:20px;}
+        100% {left:0px; top:0px;}
+      }
+      .ppp2p{
+        margin-left: 0px;
+        font-size: 15px;
+        width: 350px;
+      }
+      .mgiimg{
+        width: 300px;
+      }
+      .dddddivvvvvv{
+        display: none;
+      }
+}

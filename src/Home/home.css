@@ -1,0 +1,121 @@
+
+
+.sspan{
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    0%   {top: 0px; left: 0px; color: black;}
+    15%  {top: 0px; left: 100px; color: #ad3f2b;}
+    35%  {top: 100px; left: 100px; color: #EB6149;}
+    55%  {top: 100px; left: 0px; color: black;}
+    75% {top: 0px; left: 0px; color: #ad3f2b;}
+    95% {top: 0px; left: 0px; color: #EB6149;}
+    100% {top: 0px; left: 0px; color: #ad3f2b;}
+  }
+
+  .mmg{
+    animation: example 5s infinite;
+    position: relative;
+  }
+
+  
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:20px; top:0px;}
+    50%  {left:20px; top:40px;}
+    75%  {left:0px; top:40px;}
+    100% {left:0px; top:0px;}
+  }
+
+.dddddiv{
+    animation: mymovvvve 5s infinite;
+    position: relative;
+}
+
+@keyframes mymovvvve {
+    0%   {left:0px; top:0px;}
+    25%  {left:20px; top:0px;}
+    50%  {left:20px; top:20px;}
+    75%  {left:0px; top:20px;}
+    100% {left:0px; top:0px;}
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @media (max-width: 992px) {
+    .dddddiv{
+        display: none;
+    }
+    .mmmmgggi{
+        width: 100px;
+        color: #f3c8c0;
+    }
+}
+
+.ppppa{
+    color: #EB6149;
+    font-size: 45px;
+    background-color: #f3c8c0c5;
+    padding: 7px 12px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.ppppapp{
+    color: gray;
+    margin-top: 15px;
+}
+
+.ppppapp2{
+    color: gray;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.cccollll{
+    transition: 0.3s all ease;
+}
+.cccollll:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cccol .hhovhh:hover{
+    color: #EB6149;
+    cursor: pointer;
+}
+
+.mmmmgoi{
+    margin-left: 40%;
+}
+
+.accc {
+    border: none;
+    color: #EB6149;
+}
