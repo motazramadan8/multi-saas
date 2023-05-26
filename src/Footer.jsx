@@ -62,7 +62,7 @@ const Footer = () => {
             </Col>
         </Row>    
     </Container>   
-    <h5 style={{textAlign: 'center'}}>© 2023 Motaz Ramadan . All Rights Reserved.</h5>
+    <h5 style={{textAlign: 'center'}}>© 2023 <a href='https://motaz.vercel.app'>Motaz Ramadan </a>. All Rights Reserved.</h5>
     </>
   )
 }
